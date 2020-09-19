@@ -321,3 +321,20 @@ footer a {
     }
 }
 
+@media (max-width:375px) {
+    .texto-centrado h2 {
+        font-size: 55px;
+    }
+    .texto-centrado  button {
+        width: 280px;
+    }
+    .tarjeta {
+        width: 100%;
+    }
+    .info {
+        transform: translateY(65%);
+    }
+}
+
+
+
