@@ -118,45 +118,33 @@ section {
     padding-right: 50px;
     margin-top: 50px;
     border-radius: 10px;
+    
     background-color: #ffffff;
     width: 27%;
     border: solid;
     height: 300px;
     -webkit-box-shadow: 2px 2px 5px;
     box-shadow: -15px -15px 6px;
-    -webkit-position: ;
     position: relative;
     -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transition-timing-function: ease;
-    -webkit-transition-duration: 1s;
     transition: 1s ease;
-    -webkit-perspective: 900000px;
-    perspective: 900000px;
+    perspective: 800;
+    -webkit-perspective: 800;
 }
 
 .atras {
-    -webkit-height: 100%;
     height: 100%;
-    -webkit-display: flex;
     display: flex;
-    -webkit-justify-content: center;
     justify-content: center;
-    -webkit-display: 100%;
     width: 100%;
-    -webkit-align-items: center;
     align-items: center;
-    -webkit-flex-direction: column;
     flex-direction: column;
-    -webkit-position: absolute;
     position: absolute;
-    
-    95% {
-    transform: perspective(400px);
-  }
-to {
-     transform: translate(0, 0);
-  }
+    -webkit-transform: rotateY(179.99deg) translateZ(0) ;
+    transform: rotateY(179.99deg) translateZ(0);
+    -ms-transform: rotateY(179.99deg) translateZ(0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     padding-left: 1em;
@@ -176,6 +164,7 @@ to {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
+
 .adelante i {
     font-size: 70px;
 }
@@ -183,11 +172,13 @@ to {
 .atras i {
     font-size: 50px;
     margin-bottom: 20px;
+
 }
 
 .tarjeta:hover {
-    -webkit-transform: rotateY(180deg) translateZ(0);
-    transform: rotateY(180deg) translateZ(0);
+    -webkit-transform: rotateY(179.99deg) translateZ(0);
+    transform: rotateY(179.99deg) translateZ(0);
+    -ms-transform: rotateY(179.99deg) translateZ(0);
 }
 
 .tarjeta button {
@@ -306,7 +297,6 @@ footer a {
     .box {
         width: 45%;
     }
-    
 }
 
 @media (max-width:550px) {
