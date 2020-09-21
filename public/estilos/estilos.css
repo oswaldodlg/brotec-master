@@ -124,7 +124,7 @@ section {
     height: 300px;
     -webkit-box-shadow: 2px 2px 5px;
     box-shadow: -15px -15px 6px;
-    -webkit-position: relative;
+    -webkit-position: fixed;
     position: relative;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
