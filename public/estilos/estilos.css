@@ -152,6 +152,9 @@ section {
     text-align: center;
 }
 
+
+
+
 .adelante {
     height:100%;
     display: flex;
@@ -164,11 +167,9 @@ section {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-
 .adelante i {
     font-size: 70px;
 }
-
 .atras i {
     font-size: 50px;
     margin-bottom: 20px;
