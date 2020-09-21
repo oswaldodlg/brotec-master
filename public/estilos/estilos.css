@@ -148,8 +148,6 @@ section {
     position: absolute;
     -webkit-transform: rotateY(180deg) translateZ(0);
     transform: rotateY(180deg) translateZ(0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
     padding-left: 1em;
     padding-right: 1em;
     text-align: center;
@@ -164,6 +162,8 @@ section {
     flex-direction: column;
     color: #2980B9;
     position: absolute;
+    -webkit-transform: rotateY(180deg) translateZ(0);
+    transform: rotateY(180deg) translateZ(0);
     
 }
 .adelante i {
