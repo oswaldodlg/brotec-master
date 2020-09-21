@@ -148,6 +148,8 @@ section {
     padding-left: 1em;
     padding-right: 1em;
     text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .adelante {
@@ -159,8 +161,7 @@ section {
     flex-direction: column;
     color: #2980B9;
     position: absolute;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    
 }
 .adelante i {
     font-size: 70px;
