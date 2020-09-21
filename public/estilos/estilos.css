@@ -118,7 +118,6 @@ section {
     padding-right: 50px;
     margin-top: 50px;
     border-radius: 10px;
-    
     background-color: #ffffff;
     width: 27%;
     border: solid;
@@ -142,7 +141,7 @@ section {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    -webkit-transform: rotateY(180deg) translateZ(0);
+    -webkit-transform: rotateY(180deg) translateZ(1px);
     transform: rotateY(180deg) translateZ(0);
     -ms-transform: rotateY(180deg) translateZ(0);
     -webkit-backface-visibility: hidden;
@@ -166,6 +165,8 @@ section {
     position: absolute;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
 }
 .adelante i {
     font-size: 70px;
@@ -177,7 +178,7 @@ section {
 }
 
 .tarjeta:hover {
-    -webkit-transform: rotateY(180deg) translateZ(0);
+    -webkit-transform: rotateY(180deg) translateZ(1px);
     transform: rotateY(180deg) translateZ(0);
     -ms-transform: rotateY(180deg) translateZ(0);
 }
