@@ -178,7 +178,7 @@ section {
 }
 
 .tarjeta:hover {
-    -webkit-transform: rotateY(180deg) translateZ(1px);
+    -webkit-transform: rotateY(180deg) translateZ(0);
     transform: rotateY(180deg) translateZ(0);
     -ms-transform: rotateY(180deg) translateZ(0);
 }
