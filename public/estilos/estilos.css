@@ -230,7 +230,7 @@ section {
 }
 
 .info h2 {
-    padding-top: 0.5rem;
+    padding-top: 0.2rem;
 }
 
 .box:hover .info {
@@ -300,6 +300,10 @@ footer a {
     .box {
         width: 45%;
     }
+    
+    nav img {
+    height: 25px;
+}
 }
 
 @media (max-width:550px) {
@@ -330,6 +334,10 @@ footer a {
     .button {
         padding-bottom: 50px;
     }
+    
+     nav img {
+    height: 25px;
+    }
 }
 
 @media (max-width:375px) {
@@ -344,5 +352,9 @@ footer a {
     }
     .info {
         transform: translateY(65%);
+    }
+    
+     nav img {
+    height: 25px;
     }
 }
