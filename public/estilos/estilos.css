@@ -126,10 +126,13 @@ section {
     -webkit-box-shadow: 2px 2px 5px;
     box-shadow: -15px -15px 6px;
     position: relative;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
     transition: 1s ease;
     perspective: 800;
     -webkit-perspective: 800;
+    -ms-perspective: 800;
 }
 
 .atras {
@@ -140,15 +143,18 @@ section {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg) translateZ(1px);
+    transform: rotateY(180deg) translateZ(1px);
+    -ms-transform: rotateY(180deg) translateZ(1px);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     padding-left: 1em;
     padding-right: 1em;
     text-align: center;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
 }
+
+
+
 
 .adelante {
     height:100%;
@@ -161,6 +167,7 @@ section {
     position: absolute;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    -ms-backface-visibility:hidden;
 }
 .adelante i {
     font-size: 70px;
@@ -171,8 +178,10 @@ section {
 
 }
 
-.tarjeta:click {
-    transform: rotateY(180deg);
+.tarjeta:hover {
+    -webkit-transform: rotateY(180deg) translateZ(1px);
+    transform: rotateY(180deg) translateZ(1px);
+    -ms-transform: rotateY(180deg) translateZ(1px);
 }
 
 .tarjeta button {
@@ -320,6 +329,21 @@ footer a {
     }
     .button {
         padding-bottom: 50px;
+    }
+}
+
+@media (max-width:375px) {
+    .texto-centrado h2 {
+        font-size: 55px;
+    }
+    .texto-centrado  button {
+        width: 280px;
+    }
+    .tarjeta {
+        width: 100%;
+    }
+    .info {
+        transform: translateY(65%);
     }
 }
 
