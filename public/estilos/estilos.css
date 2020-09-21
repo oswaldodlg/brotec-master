@@ -172,7 +172,7 @@ section {
     margin-bottom: 20px;
 }
 
-.tarjeta:hover {
+.tarjeta:onclick {
     -webkit-transform: rotateY(180deg) translateZ(0);
     transform: rotateY(180deg) translateZ(0);
 }
@@ -294,10 +294,6 @@ footer a {
         width: 45%;
     }
     
-    .tarjeta:onclick {
-    -webkit-transform: rotateY(180deg) translateZ(0);
-    transform: rotateY(180deg) translateZ(0);
-    }
 }
 
 @media (max-width:550px) {
@@ -328,10 +324,6 @@ footer a {
     .button {
         padding-bottom: 50px;
     }
-    .tarjeta:onclick {
-    -webkit-transform: rotateY(180deg) translateZ(0);
-    transform: rotateY(180deg) translateZ(0);
-    }
 }
 
 @media (max-width:375px) {
@@ -346,10 +338,5 @@ footer a {
     }
     .info {
         transform: translateY(65%);
-    }
-    
-    .tarjeta:onclick {
-    -webkit-transform: rotateY(180deg) translateZ(0);
-    transform: rotateY(180deg) translateZ(0);
     }
 }
