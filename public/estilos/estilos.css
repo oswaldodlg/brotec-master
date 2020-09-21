@@ -118,7 +118,6 @@ section {
     padding-right: 50px;
     margin-top: 50px;
     border-radius: 10px;
-    
     background-color: #ffffff;
     width: 27%;
     border: solid;
@@ -171,7 +170,7 @@ section {
 
 }
 
-.tarjeta:hover {
+.tarjeta:click {
     -webkit-transform: rotateY(180deg) translateZ(0);
     transform: rotateY(180deg) translateZ(0);
 }
