@@ -342,6 +342,10 @@ footer a {
      nav img {
     height: 25px;
     }
+    
+     .info h2 {
+    padding-top: 0.4rem;
+    }
 }
 
 @media (max-width:375px) {
@@ -360,5 +364,8 @@ footer a {
     
      nav img {
     height: 25px;
+    }
+     .info h2 {
+    padding-top: 0.4rem;
     }
 }
