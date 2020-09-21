@@ -133,11 +133,6 @@ section {
     -webkit-perspective: 800;
 }
 
-.atras .adelante {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
 .atras {
     height: 100%;
     display: flex;
