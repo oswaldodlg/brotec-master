@@ -142,7 +142,7 @@ section {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    -webkit-transform: rotateY(180deg) translateZ(0);
+    -webkit-transform: rotateY(180deg) translateZ(1px);
     transform: rotateY(180deg) translateZ(0);
     -ms-transform: rotateY(180deg) translateZ(0);
     -webkit-backface-visibility: hidden;
@@ -177,7 +177,7 @@ section {
 }
 
 .tarjeta:hover {
-    -webkit-transform: rotateY(180deg) translateZ(0);
+    -webkit-transform: rotateY(180deg) translateZ(1px);
     transform: rotateY(180deg) translateZ(0);
     -ms-transform: rotateY(180deg) translateZ(0);
 }
