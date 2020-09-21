@@ -118,7 +118,6 @@ section {
     padding-right: 50px;
     margin-top: 50px;
     border-radius: 10px;
-    
     background-color: #ffffff;
     width: 27%;
     border: solid;
@@ -132,6 +131,8 @@ section {
     transition: 1s ease;
     perspective: 800;
     -webkit-perspective: 800;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
 }
 
 .atras {
@@ -142,9 +143,9 @@ section {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    -webkit-transform: rotateY(179.99deg) translateZ(0) ;
-    transform: rotateY(179.99deg) translateZ(0);
-    -ms-transform: rotateY(179.99deg) translateZ(0);
+    -webkit-transform: rotateY(180deg) translateZ(0) ;
+    transform: rotateY(180deg) translateZ(0);
+    -ms-transform: rotateY(180deg) translateZ(0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     padding-left: 1em;
@@ -177,9 +178,9 @@ section {
 }
 
 .tarjeta:hover {
-    -webkit-transform: rotateY(179.99deg) translateZ(0);
-    transform: rotateY(179.99deg) translateZ(0);
-    -ms-transform: rotateY(179.99deg) translateZ(0);
+    -webkit-transform: rotateY(180deg) translateZ(0);
+    transform: rotateY(180deg) translateZ(0);
+    -ms-transform: rotateY(180deg) translateZ(0);
 }
 
 .tarjeta button {
