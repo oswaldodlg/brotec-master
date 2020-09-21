@@ -162,8 +162,6 @@ section {
     position: absolute;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-transform: rotateY(180deg) translateZ(0);
-    transform: rotateY(180deg) translateZ(0);
 }
 .adelante i {
     font-size: 70px;
