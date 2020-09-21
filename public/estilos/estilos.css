@@ -126,6 +126,7 @@ section {
     -webkit-box-shadow: 2px 2px 5px;
     box-shadow: -15px -15px 6px;
     position: relative;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     transition: 1s ease;
     perspective: 800;
