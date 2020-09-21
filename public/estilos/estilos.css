@@ -170,7 +170,7 @@ section {
 
 }
 
-.tarjeta:click {
+.tarjeta:hover {
     -webkit-transform: rotateY(180deg) translateZ(0);
     transform: rotateY(180deg) translateZ(0);
 }
@@ -291,6 +291,12 @@ footer a {
     .box {
         width: 45%;
     }
+    
+    
+    .tarjeta:touch {
+    -webkit-transform: rotateY(180deg) translateZ(0);
+    transform: rotateY(180deg) translateZ(0);
+    }
 }
 
 @media (max-width:550px) {
@@ -321,6 +327,11 @@ footer a {
     .button {
         padding-bottom: 50px;
     }
+    
+    .tarjeta:touch {
+    -webkit-transform: rotateY(180deg) translateZ(0);
+    transform: rotateY(180deg) translateZ(0);
+    }
 }
 
 @media (max-width:375px) {
@@ -335,5 +346,10 @@ footer a {
     }
     .info {
         transform: translateY(65%);
+    }
+    
+    .tarjeta:touch {
+    -webkit-transform: rotateY(180deg) translateZ(0);
+    transform: rotateY(180deg) translateZ(0);
     }
 }
