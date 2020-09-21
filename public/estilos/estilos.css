@@ -136,14 +136,21 @@ section {
 }
 
 .atras {
+    -webkit-height: 100%;
     height: 100%;
+    -webkit-display: flex;
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
+    -webkit-display: 100%;
     width: 100%;
+    -webkit-align-items: center;
     align-items: center;
+    -webkit-flex-direction: column;
     flex-direction: column;
+    -webkit-position: absolute;
     position: absolute;
-   
+    -webkit-transform: rotateY(180deg) translateZ(0);
     transform: rotateY(180deg) translateZ(0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
