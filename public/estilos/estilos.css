@@ -131,8 +131,8 @@ section {
     -webkit-transition-timing-function: ease;
     -webkit-transition-duration: 1s;
     transition: 1s ease;
-    perspective: 800;
-    -webkit-perspective: 800;
+    -webkit-perspective: 900000px;
+    perspective: 900000px;
 }
 
 .atras {
@@ -157,7 +157,6 @@ section {
     padding-left: 1em;
     padding-right: 1em;
     text-align: center;
-    -webkit-background: transparent;
 }
 
 .adelante {
