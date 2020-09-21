@@ -141,8 +141,8 @@ section {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg) translateZ(0);
+    transform: rotateY(180deg) translateZ(0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     padding-left: 1em;
@@ -172,8 +172,8 @@ section {
 }
 
 .tarjeta:hover {
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg) translateZ(0);
+    transform: rotateY(180deg) translateZ(0);
 }
 
 .tarjeta button {
