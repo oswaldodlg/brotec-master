@@ -127,6 +127,7 @@ section {
     position: relative;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    -webkit-transition: 1s ease;
     transition: 1s ease;
     perspective: 800;
     -webkit-perspective: 800;
@@ -147,7 +148,6 @@ section {
     padding-left: 1em;
     padding-right: 1em;
     text-align: center;
-    -webkit-frontface-visibility: visible;
 }
 
 .adelante {
