@@ -172,7 +172,7 @@ section {
     margin-bottom: 20px;
 }
 
-.tarjeta:onclick {
+.tarjeta:hover {
     -webkit-transform: rotateY(180deg) translateZ(0);
     transform: rotateY(180deg) translateZ(0);
 }
