@@ -304,10 +304,6 @@ footer a {
     nav img {
     height: 25px;
     }
-    
-    .info h2 {
-    padding-top: 0.16rem;
-    }
 }
 
 @media (max-width:550px) {
@@ -333,7 +329,7 @@ footer a {
         width: 100%;
     }
     .info {
-        transform: translateY(76%);
+        transform: translateY(69%);
     }
     .button {
         padding-bottom: 50px;
@@ -341,10 +337,6 @@ footer a {
     
      nav img {
     height: 25px;
-    }
-    
-     .info h2 {
-    padding-top: 0.5rem;
     }
 }
 
@@ -364,8 +356,5 @@ footer a {
     
      nav img {
     height: 25px;
-    }
-     .info h2 {
-    padding-top: 0.5rem;
     }
 }
