@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  #navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 20px 2%; 
+    background-color: #333333;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  nav img {
+    height: 55px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  #navegacion nav ul{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+    }
+
+ #collapsibleNavbar{
+   justify-content: flex-end;
+ }
+
+  header .logo {
+    color: black;
+  }
+  
+  li, a, button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    display: flex;
+  }
+
+   .nav_links ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .nav_links li {
+    color: black;
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+
+  .nav a {
+    color: whitesmoke
+  }
+
+  
+  
+  #main {
+    text-align: center;
+    position:relative;
+  }
+
+  #main .jumbotron { 
+    margin-bottom: 0;
+  }
+  
+  #main h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 0px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    position: absolute;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  footer p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+  
+  }
+  
+  /* .container {
+    max-width: 940px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+    padding-top: inherit;
+  }
+   */
+  .jumbotron {
+    height: 800px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 40% 50%; 
+    background-blend-mode: overlay;
+  }
+
+  .jumbotron img{
+    height: 300px;
+  }
+  
+
+  #Inicio .container-inicio {
+    width: 85%;
+    height: 600px;
+    padding-top: 2rem !important;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: inherit;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 40% 50%; 
+    background-blend-mode: overlay;
+    color: whitesmoke;
+  }
+
+  #Inicio img {
+    max-width: 100%;
+  }
+
+  #Inicio .container-inicio p{
+    text-align: justify;
+  }
+
+
+  #servicios {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  #Equipos {
+    text-align: center;
+    background-color: #333333;
+    color: whitesmoke;
+  }
+
+  #Equipos .container {
+    padding-top: 1rem;
+  }
+
+
+  .card-deck {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .card-deck img {
+    height: 80px;
+    padding-top: 1rem;
+  }
+
+  .card-text {
+    text-align: justify;
+  }
+  
+  #carousel img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .carousel-caption h5{
+    display: inline-block;
+    background-color: #333333;
+    object-fit: contain;
+    width: max-content;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem !important ;
+  }
+
+
+  #valores {
+    text-align: center;
+    margin: 1rem;
+  }
+
+  #valores .card {
+    height: 150px;
+  }
+
+  #contacto {
+    padding: 2rem;
+  }
+  
+  .btn-main {
+    display: inline-flex;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .btn-default {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 1.3px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;  
+    margin-bottom: 20px;      
+  }
+  
+  .supporting {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  
+  .supporting .col {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    display: inline-block;
+    height: 200px;
+    width:200px;
+   
+  }
+  
+  .supporting img {
+    height: 32px;
+  }
+  
+  .supporting h2 {
+    font-weight: 600;
+    font-size: 23px;
+    text-transform: uppercase;
+  }
+  
+  .supporting p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+  
+  .supporting a {
+    background-color: white;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #333333; 
+  }
+  
+  /* @media (max-width: 500px) {
+    main h1 {
+      font-size: 50px;
+      padding: 0 40px;
+    }
+  
+    .supporting .col {
+      width: 100%;
+    }
+  } */
+
+   @media (max-width: 500px) {
+    main h1 {
+      font-size: 50px;
+      padding: 0 40px;
+    }
+  
+    .supporting .col {
+      width: 100%;
+    }
+
+    #carousel img{
+      width: 100%;
+      height: 350px;
+      object-fit: scale-down;
+      font-size: 2rem;
+    }
+
+    .carousel-caption h5{
+      display: inline-block;
+      background-color: #333333;
+      object-fit: contain;
+      width: auto;
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem !important ;
+    }
+
+  } 
