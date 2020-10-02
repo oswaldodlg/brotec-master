@@ -213,6 +213,10 @@
   #contacto .card-text {
     text-align: center;
   }
+
+  #contacto a { 
+    text-decoration: none; color: #000000; 
+  }
   
   .btn-main {
     display: inline-flex;
