@@ -207,7 +207,11 @@
   }
 
   #contacto {
-    padding: 2rem;
+    padding: 1rem;
+  }
+  
+  #contacto .card-text {
+    text-align: center;
   }
   
   .btn-main {
